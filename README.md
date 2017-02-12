@@ -3,7 +3,7 @@ Drupal 7.51 with module to upload and get properties of image. It includes a DLL
 
 How to install:
 
-1) Directly install it On XAMPP
+A) Directly install it On XAMPP
 
 1) Download it and put it in a folder under htdocs folder in XAMPP;
 2) in the "database_sql" folder, the drupal75.sql file is SQL script; 
@@ -11,7 +11,7 @@ Import the .sql file on PHPMyAdmin to build database, user, tables and input dat
 After installed the database, this folder should be removed.
 3) Then you can open the website on your browser.
 
-2) Install Drupal 7.51 first and the install the module. 
+B) Install Drupal 7.51 first and the install the module. 
 
 Just download the module named "Process Image" 
 in the "sites\all\modules" folder. And install it on your Drupal. And copy the two files to your root folder 
