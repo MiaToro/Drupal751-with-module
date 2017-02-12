@@ -31,3 +31,8 @@ Password: admin
 1) login to the dashboard;
 2) Go to Configuration >> Development >> Testing
 3) Check the checkbox before "Images" on the list, then click "Run tests" button. 
+
+The CImgdll.dll and CImgClient.exe project is located: 
+
+CImg-DLL-Client-C-plus-plus
+https://github.com/MiaToro/CImg-DLL-Client-C-plus-plus
