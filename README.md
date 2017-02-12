@@ -36,3 +36,9 @@ The CImgdll.dll and CImgClient.exe project is located:
 
 CImg-DLL-Client-C-plus-plus
 https://github.com/MiaToro/CImg-DLL-Client-C-plus-plus
+
+About PHP call C++ Dynamic Library, I use PHP's exec() function to execute a C++ .exe file to 
+call a C++ DLL file named CImgdll.dll. I made it using CImg library. The link is http://cimg.eu/.
+
+For more details, please visit: https://github.com/MiaToro/CImg-DLL-Client-C-plus-plus/blob/master/README.md
+
