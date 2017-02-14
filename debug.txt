@@ -1,0 +1,141 @@
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487039199
+    [fid] => 55
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076.JPG
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076_0.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487039264
+    [fid] => 56
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076_0.JPG
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo.png
+    [uri] => public://logo_21.png
+    [filemime] => image/png
+    [filesize] => 7458
+    [source] => file
+    [destination] => temporary://logo.png
+    [timestamp] => 1487039288
+    [fid] => 57
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo_21.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076_1.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487039351
+    [fid] => 58
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076_1.JPG
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo.png
+    [uri] => public://logo_22.png
+    [filemime] => image/png
+    [filesize] => 7458
+    [source] => file
+    [destination] => temporary://logo.png
+    [timestamp] => 1487039366
+    [fid] => 59
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo_22.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076_2.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487039458
+    [fid] => 60
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076_2.JPG
+file::: stdClass Object
+(
+    [uid] => 1
+    [status] => 1
+    [filename] => logo.png
+    [uri] => public://logo_23.png
+    [filemime] => image/png
+    [filesize] => 7458
+    [source] => file
+    [destination] => temporary://logo.png
+    [timestamp] => 1487039520
+    [fid] => 61
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo_23.png
+file::: stdClass Object
+(
+    [uid] => 1
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076_3.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487040645
+    [fid] => 62
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076_3.JPG
+file::: stdClass Object
+(
+    [uid] => 1
+    [status] => 1
+    [filename] => IMG_0076.JPG
+    [uri] => public://IMG_0076_4.JPG
+    [filemime] => image/jpeg
+    [filesize] => 43864
+    [source] => file
+    [destination] => temporary://IMG_0076.JPG
+    [timestamp] => 1487040885
+    [fid] => 63
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\IMG_0076_4.JPG
+output ::: Array
+(
+    [0] => Width=500
+    [1] => Height=332
+)
+

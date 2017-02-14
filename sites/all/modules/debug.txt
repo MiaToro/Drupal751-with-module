@@ -1,0 +1,89 @@
+file1 ::: C:\\xampp\\htdocs\\drupal75\\sites\\default\\files\\logo1.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo1.png
+    [uri] => public://logo1_15.png
+    [filemime] => image/png
+    [filesize] => 3479
+    [source] => file
+    [destination] => temporary://logo1.png
+    [timestamp] => 1487038820
+    [fid] => 51
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_15.png
+path ::: http://localhost:8080/drupal75/sites/default/files/logo1_15.png
+output ::: Array
+(
+    [0] => Width=65
+    [1] => Height=73
+)
+
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_16.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo1.png
+    [uri] => public://logo1_16.png
+    [filemime] => image/png
+    [filesize] => 3479
+    [source] => file
+    [destination] => temporary://logo1.png
+    [timestamp] => 1487038894
+    [fid] => 52
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_16.png
+output ::: Array
+(
+    [0] => Width=65
+    [1] => Height=73
+)
+
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_17.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo1.png
+    [uri] => public://logo1_17.png
+    [filemime] => image/png
+    [filesize] => 3479
+    [source] => file
+    [destination] => temporary://logo1.png
+    [timestamp] => 1487038983
+    [fid] => 53
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_17.png
+output ::: Array
+(
+    [0] => Width=65
+    [1] => Height=73
+)
+
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo_20.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo.png
+    [uri] => public://logo_20.png
+    [filemime] => image/png
+    [filesize] => 7458
+    [source] => file
+    [destination] => temporary://logo.png
+    [timestamp] => 1487038991
+    [fid] => 54
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo_20.png
+output ::: Array
+(
+    [0] => Width=350
+    [1] => Height=40
+)
+
