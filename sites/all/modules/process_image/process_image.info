@@ -1,5 +1,0 @@
-name = Process imge
-description = Upload image and show its properties.
-package = Image modules
-core = 7.x
-files[] = process_image.test
