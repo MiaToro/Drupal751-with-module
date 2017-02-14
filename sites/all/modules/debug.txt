@@ -1,429 +1,89 @@
-file ::: stdClass Object
+file1 ::: C:\\xampp\\htdocs\\drupal75\\sites\\default\\files\\logo1.png
+file::: stdClass Object
 (
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_2.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875077
-    [fid] => 6
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_3.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875178
-    [fid] => 7
-)
-
-output ::: Array
-(
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_4.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875245
-    [fid] => 8
-)
-
-output ::: Array
-(
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_5.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875311
-    [fid] => 9
-)
-
-output ::: Array
-(
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_6.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875433
-    [fid] => 10
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_7.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875558
-    [fid] => 11
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_8.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486875690
-    [fid] => 12
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_9.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486876749
-    [fid] => 13
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo.png
-    [uri] => public://logo_10.png
-    [filemime] => image/png
-    [filesize] => 7458
-    [source] => file
-    [destination] => temporary://logo.png
-    [timestamp] => 1486879998
-    [fid] => 15
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486880081
-    [fid] => 16
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1_0.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486880176
-    [fid] => 17
-)
-
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1_1.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486880390
-    [fid] => 18
-)
-
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1_2.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486880406
-    [fid] => 19
-)
-
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-file ::: stdClass Object
-(
-    [status] => 1
-    [timestamp] => 1486880758
-    [filesize] => 
-    [fid] => 20
     [uid] => 0
-    [filename] => 
-    [uri] => 
-    [filemime] => 
-)
-
-file ::: stdClass Object
-(
-    [uid] => 1
     [status] => 1
     [filename] => logo1.png
-    [uri] => public://logo1_3.png
+    [uri] => public://logo1_15.png
     [filemime] => image/png
     [filesize] => 3479
     [source] => file
     [destination] => temporary://logo1.png
-    [timestamp] => 1486880916
-    [fid] => 23
+    [timestamp] => 1487038820
+    [fid] => 51
 )
 
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_15.png
+path ::: http://localhost:8080/drupal75/sites/default/files/logo1_15.png
 output ::: Array
 (
     [0] => Width=65
     [1] => Height=73
 )
 
-filevalidate ::: 
-file ::: stdClass Object
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_16.png
+file::: stdClass Object
 (
-    [uid] => 1
+    [uid] => 0
+    [status] => 1
+    [filename] => logo1.png
+    [uri] => public://logo1_16.png
+    [filemime] => image/png
+    [filesize] => 3479
+    [source] => file
+    [destination] => temporary://logo1.png
+    [timestamp] => 1487038894
+    [fid] => 52
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_16.png
+output ::: Array
+(
+    [0] => Width=65
+    [1] => Height=73
+)
+
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_17.png
+file::: stdClass Object
+(
+    [uid] => 0
+    [status] => 1
+    [filename] => logo1.png
+    [uri] => public://logo1_17.png
+    [filemime] => image/png
+    [filesize] => 3479
+    [source] => file
+    [destination] => temporary://logo1.png
+    [timestamp] => 1487038983
+    [fid] => 53
+)
+
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo1_17.png
+output ::: Array
+(
+    [0] => Width=65
+    [1] => Height=73
+)
+
+file1 ::: C:\xampp\htdocs\drupal75\sites\default\files\logo_20.png
+file::: stdClass Object
+(
+    [uid] => 0
     [status] => 1
     [filename] => logo.png
-    [uri] => public://logo_11.png
+    [uri] => public://logo_20.png
     [filemime] => image/png
     [filesize] => 7458
     [source] => file
     [destination] => temporary://logo.png
-    [timestamp] => 1486881018
-    [fid] => 25
+    [timestamp] => 1487038991
+    [fid] => 54
 )
 
+root::: C:\xampp\htdocs\drupal75\sites\default\files\logo_20.png
 output ::: Array
 (
     [0] => Width=350
     [1] => Height=40
 )
 
-filevalidate ::: 
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1_4.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486881521
-    [fid] => 26
-)
-
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-file ::: stdClass Object
-(
-    [uid] => 1
-    [status] => 1
-    [filename] => logo1.png
-    [uri] => public://logo1_5.png
-    [filemime] => image/png
-    [filesize] => 3479
-    [source] => file
-    [destination] => temporary://logo1.png
-    [timestamp] => 1486882507
-    [fid] => 27
-)
-
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-current_path ::: images/process_image/upload_image
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-filevalidate ::: 
-base_path ::: /drupal751/
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-__FILE__ ::: C:\xampp\htdocs\drupal751\sites\all\modules\process_image\process_image.inc
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
- dirname(__FILE__) C:\xampp\htdocs\drupal751\sites\all\modules\process_image;
-filevalidate ::: 
-__FILE__ ::: C:\xampp\htdocs\drupal751\sites\all\modules\process_image\process_image.inc
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-filevalidate ::: 
-__FILE__ ::: C:\xampp\htdocs\drupal751\sites\all\modules\process_image\process_image.inc
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-file1 ::: C:\\xampp\\htdocs\\drupal751\\sites\\\default\files\logo1.png
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-file1 ::: C:\\xampp\\htdocs\\drupal751\\sites\\default\files\logo.png
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-filevalidate ::: 
-file1 ::: C:\\xampp\\htdocs\\drupal751\\sites\\default\\files\\logo.png
-output ::: Array
-(
-    [0] => Width=350
-    [1] => Height=40
-)
-
-filevalidate ::: 
-file1 ::: C:\\xampp\\htdocs\\drupal751\\sites\\default\\files\\logo1.png
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 
-filevalidate ::: 
-filevalidate ::: 
-filevalidate ::: 
-filevalidate ::: 
-file1 ::: C:\\xampp\\htdocs\\drupal751\\sites\\default\\files\\logo1.png
-output ::: Array
-(
-    [0] => Width=65
-    [1] => Height=73
-)
-
-filevalidate ::: 

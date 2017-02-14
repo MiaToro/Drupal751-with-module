@@ -115,52 +115,41 @@ function process_image_demo_form($form, &$form_state) {
 /**
  * Submit handler for process_image_demo_form().
  */
-function process_image_demo_form_submit($form, &$form_state) {
-    $temp1 = '';
-    $temp2 = '';
-    $path = '';
+function process_image_demo_form_submit($form, &$form_state) { 
+    $imagefile = '';
 
     $file = $form_state['storage']['file'];
     // We are done with the file, remove it from storage.
     unset($form_state['storage']['file']);
     // Make the storage of the file permanent.
     $file->status = FILE_STATUS_PERMANENT;
+    /*
     if ($dirh) {
         while (($dirElement = readdir($dirh)) !== false) {
             
         }
         closedir($dirh);
-    }
+    } */
     // Save file status.
-    file_save($file);
-
-
-
-    $temp1 = dirname(__FILE__);
-    $temp2 = substr($temp1, 0, strlen($temp1) - 25);
-    $path = str_replace('\\', '\\\\', $temp2);
-
-    // $file1 = "C:\\xampp\\htdocs\\drupal751\\sites\\default\\files\\" . $file->filename;
-    $file1 = $path . "default\\\\files\\\\" . $file->filename;
-
-    $file_debug = "C:\\xampp\\htdocs\\drupal751\\sites\\all\\modules\\debug.txt";
-    $debug_current = "file1 ::: " . print_r($file1, true) . PHP_EOL;
+    $uploaded = file_save($file);
+    $imagefile = drupal_realpath($file->uri); 
+    /*
+    $file_debug = "debug.txt";
+    $debug_current = "file::: " . print_r($file, true) . PHP_EOL; 
+    $debug_current .= "root::: " . print_r(drupal_realpath($file->uri), true) . PHP_EOL;      
     file_put_contents($file_debug, $debug_current, FILE_APPEND);
-
+    */
+    
     try {
-        exec("CImgClient.exe " . $file1 . " 2>&1", $output);
-        /*        echo "<pre>";
-          var_dump($output);
-          echo "</pre>"; */
-        $debug_current = "output ::: " . print_r($output, true) . PHP_EOL;
-        file_put_contents($file_debug, $debug_current, FILE_APPEND);
+        exec("CImgClient.exe " . $imagefile . " 2>&1", $output);  
     } catch (Exception $e) {
         echo "error: " . $e->getMessage(), "\n";
     }
 
     //
     // Set a response to the user.
-    drupal_set_message(t('The image has been submited and saved, filename: @filename.', array('@filename' => $file->filename)));
+    drupal_set_message(t('The image has been uploaded and saved, filename: @filename.', array('@filename' => $file->filename)));
+    drupal_set_message(t('The uploaded Image\'s location: ' . drupal_realpath($file->uri)));
     drupal_set_message(t($output[0] . "px"));
     drupal_set_message(t($output[1] . "px"));
 }
@@ -170,11 +159,7 @@ function process_image_demo_form_submit($form, &$form_state) {
  *
  * @ingroup process_image
  */
-function process_image_demo_form_validate($form, &$form_state) {
-
-    $file_debug = "C:\\xampp\\htdocs\\drupal751\\sites\\all\\modules\\debug.txt";
-    $debug_current = "filevalidate ::: " . print_r($file, true) . PHP_EOL;
-    file_put_contents($file_debug, $debug_current, FILE_APPEND);
+function process_image_demo_form_validate($form, &$form_state) { 
 
     $file = file_save_upload('file', array(
         // Validates file is really an image.
